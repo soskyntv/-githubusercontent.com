@@ -68,7 +68,7 @@ Test-NetConnection 185.199.108.133 -Port 443
 
 Запустите от **имени администратора**:
 ```
-C:\Users\Admin\Documents\zapret\fix-github-gist-ipv6.bat
+fix-github-gist-ipv6.bat
 ```
 (ПКМ → «Запуск от имени администратора»). Скрипт:
 1. Закрывает зависшие процессы, блокирующие `hosts`.
@@ -81,9 +81,6 @@ C:\Users\Admin\Documents\zapret\fix-github-gist-ipv6.bat
 2. Вставьте строки выше в конец.
 3. Сохраните.
 
-### Без прав администратора (PowerShell/opencode)
-
-Если вы работаете из терминала, которому не хватает прав, перезапустите терминал от имени администратора. Без прав записать в `C:\Windows\System32\drivers\etc\hosts` нельзя.
 
 ---
 
